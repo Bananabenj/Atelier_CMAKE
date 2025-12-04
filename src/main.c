@@ -33,7 +33,7 @@ int main(int argc, char *argv[]){
 		char* a = argv[2];
 		double r = 0;
 
-		else if (strcmp(op, "car") == 0) {
+		if (strcmp(op, "car") == 0) {
 				r = _car(atof(a));
 				printf("%lf",r);
 		}
