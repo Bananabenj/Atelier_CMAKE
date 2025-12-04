@@ -91,4 +91,4 @@ jobs:
     steps:
       - name: deploy the code
         run: |
-          echo "code deploy"          
+          echo "Déploiement de la solution"
